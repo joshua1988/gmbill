@@ -11,25 +11,25 @@ const FLOORS = [
   },
   {
     floor: "2층",
-    Icon: BedSingle,
-    label: "원룸 2세대",
-    desc: "201호, 202호",
+    Icon: BedDouble,
+    label: "투룸 1세대 · 원룸 2세대",
+    desc: "201호(투룸), 203·204호(원룸)",
     color: "bg-slate-50 border-slate-200 text-slate-700",
     iconColor: "bg-slate-100 text-slate-600",
   },
   {
     floor: "3층",
     Icon: BedDouble,
-    label: "원룸 1세대 · 투룸 2세대",
-    desc: "301호(원룸), 302·303호(투룸)",
+    label: "투룸 1세대 · 원룸 2세대",
+    desc: "301호(투룸), 303·304호(원룸)",
     color: "bg-blue-50 border-blue-200 text-blue-700",
     iconColor: "bg-blue-100 text-blue-600",
   },
   {
     floor: "4층",
     Icon: BedDouble,
-    label: "원룸 2세대 · 투룸 1세대",
-    desc: "401·402호(원룸), 403호(투룸)",
+    label: "투룸 2세대",
+    desc: "401호, 403호",
     color: "bg-blue-50 border-blue-200 text-blue-700",
     iconColor: "bg-blue-100 text-blue-600",
   },
@@ -70,7 +70,7 @@ export default function FloorPlanSection() {
         </div>
 
         <p className="mt-6 text-xs text-slate-400">
-          * 세대 구성: 원룸 5개, 투룸 3개 (총 8세대)
+          * 세대 구성: 원룸 4개, 투룸 4개 (총 8세대)
         </p>
       </div>
     </section>

@@ -109,7 +109,7 @@ export default async function UnitPage({
 
         {/* CTA */}
         <a
-          href="tel:010-0000-0000"
+          href="tel:01066956225"
           className="flex items-center justify-center gap-2 w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-2xl transition-colors"
         >
           <Phone size={18} />

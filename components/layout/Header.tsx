@@ -33,7 +33,7 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="tel:010-0000-0000"
+            href="tel:01066956225"
             className="text-sm font-medium bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700 transition-colors"
           >
             문의하기
@@ -64,7 +64,7 @@ export default function Header() {
             </Link>
           ))}
           <a
-            href="tel:010-0000-0000"
+            href="tel:01066956225"
             className="mt-3 block text-center text-sm font-medium bg-blue-600 text-white py-2 rounded-full"
           >
             문의하기

@@ -3,8 +3,8 @@
 import { useEffect, useRef } from "react";
 import Script from "next/script";
 
-const LAT = 35.8471;
-const LNG = 127.1295;
+const LAT = 35.8441545;
+const LNG = 127.1412477;
 
 export default function NaverMap() {
   const mapRef = useRef<HTMLDivElement>(null);

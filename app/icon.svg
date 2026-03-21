@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#FFD9E2"></rect>
+
+  <rect x="17" y="12" width="30" height="34" rx="8" fill="#FFFFFF" stroke="#5B4B5A" stroke-width="3"></rect>
+
+  <rect x="23" y="21" width="5" height="7" rx="2.5" fill="#5B4B5A"></rect>
+  <rect x="36" y="21" width="5" height="7" rx="2.5" fill="#5B4B5A"></rect>
+
+  <path d="M27 33 Q32 37 37 33" fill="none" stroke="#5B4B5A" stroke-width="3" stroke-linecap="round"></path>
+
+  <rect x="28" y="38" width="8" height="8" rx="3" fill="#FFC857" stroke="#5B4B5A" stroke-width="2"></rect>
+
+  <text x="32" y="58" text-anchor="middle" font-size="10" font-family="Arial, sans-serif" font-weight="800" fill="#5B4B5A">GM</text>
+</svg>

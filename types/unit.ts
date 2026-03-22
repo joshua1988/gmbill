@@ -16,6 +16,7 @@ export interface Unit {
   amenities: AmenityKey[];
   images: UnitImage[];
   description?: string;
+  occupied?: boolean;
 }
 
 export interface UnitImage {

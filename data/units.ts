@@ -49,6 +49,7 @@ export const units: Unit[] = [
     label: "203호 원룸",
     amenities: ALL_AMENITIES,
     images: makePlaceholderImages("203호 전경"),
+    occupied: true,
   },
   {
     id: "204",
@@ -57,6 +58,7 @@ export const units: Unit[] = [
     label: "204호 원룸",
     amenities: ALL_AMENITIES,
     images: makePlaceholderImages("204호 전경"),
+    occupied: true,
   },
   // 3층
   {
@@ -74,6 +76,7 @@ export const units: Unit[] = [
     label: "303호 원룸",
     amenities: ALL_AMENITIES,
     images: makePlaceholderImages("303호 전경"),
+    occupied: true,
   },
   {
     id: "304",

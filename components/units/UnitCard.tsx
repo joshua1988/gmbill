@@ -41,6 +41,17 @@ export default function UnitCard({ unit }: UnitCardProps) {
         >
           {TYPE_LABEL[unit.type]}
         </span>
+
+        {/* 입주 상태 배지 */}
+        <span
+          className={`absolute top-3 right-3 text-xs font-semibold px-3 py-1 rounded-full ${
+            unit.occupied
+              ? "bg-slate-800/70 text-white"
+              : "bg-green-500 text-white"
+          }`}
+        >
+          {unit.occupied ? "입주완료" : "모집중"}
+        </span>
       </div>
 
       {/* 정보 영역 */}

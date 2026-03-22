@@ -2,7 +2,7 @@ import { MapPin, Building2, Sparkles } from "lucide-react";
 
 const BADGES = [
   { icon: MapPin, text: "전북대병원 도보 2분" },
-  { icon: Sparkles, text: "2026년 신축 리모델링" },
+  { icon: Sparkles, text: "2026년 전면 인테리어 리모델링" },
   { icon: Building2, text: "원룸·투룸 8세대" },
 ];
 
@@ -27,7 +27,7 @@ export default function HeroSection() {
         <p className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-8 max-w-xl leading-relaxed">
           전북대병원 바로 앞,
           <br />
-          <span className="text-white font-semibold">밝고 깨끗한 신축 원룸·투룸</span>
+          <span className="text-white font-semibold">내부 인테리어 전면 리모델링 원룸·투룸</span>
         </p>
 
         {/* 배지 */}

@@ -6,6 +6,8 @@ export type AmenityKey =
   | "washing_machine"
   | "induction"
   | "wardrobe"
+  | "desk"
+  | "lighting"
   | "cctv";
 
 export interface Unit {
